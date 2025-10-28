@@ -158,9 +158,10 @@ pip install -r requirements.txt
 
 3. Configurar o banco Oracle
 
-```
-No .env.example adicione suas credencias para conectar no banco Oracle
-```
+
+No arquivo `.env.example`, insira suas credenciais de conexão com o banco **Oracle** (usuário, senha, host, porta e serviço).  
+Em seguida, **renomeie o arquivo para `.env`** para que as variáveis de ambiente sejam carregadas corretamente pela aplicação.
+
 4. Executar o servidor
 
 ```
